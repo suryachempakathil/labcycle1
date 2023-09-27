@@ -1,0 +1,55 @@
+#include<stdio.h>
+void insert(int value)
+{
+  int a[50],n=10,i;
+ 
+ {
+   scanf("%d",a[i]);
+   }
+void delete
+
+void display()
+{  
+   int i,n,a[50];
+   for(i=0;i<n;i++)
+   {
+     printf("%d",a[i]);
+   }
+   
+}
+int main()
+{
+ int choice,value;
+ printf("1.insert\n 2.delete\n 3.display\n");
+ printf("enter your choice");
+ scanf("%d",&choice);
+ switch(choice)
+ {
+ case 1:
+     printf("enter the value to insert");
+     scanf("%d",&value);
+     insert(value);
+     break;
+case 2:
+     printf("enter the value to delete");
+     scanf("%d",&value);
+     value=delete();
+     if(value!=-1)
+     {
+      printf("delete value: %d\n", value);
+      }
+     break;      
+ case 3:
+     printf("enter the array");
+     
+     display();
+     break;  
+case 4:
+      exit(0);
+default:
+ printf("Invalid choice!\n");
+      }
+    }
+    return 0;
+}
+
