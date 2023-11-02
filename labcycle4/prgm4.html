@@ -1,0 +1,33 @@
+<!--surya s nair-->
+ <!-- 55 -->
+  <!-- 1-11-23-->
+<html>
+<head>
+<style>
+h1{
+   color:green;
+   text-align:center;
+</style>
+</head>
+<body>
+<center>
+<h1><u>Check if Positive or negative</u></h1>
+<label>enter any number</label>
+<input type="text" id="x">
+<button onclick="myFunction()">check</button>
+<p id="y"></p>
+<script>
+
+function myFunction(){
+var x= document.getElementById("x").value;
+if(parseInt(x)>0){
+document.getElementById("y").innerHTML="the number is positive"
+}
+else{
+document.getElementById("y").innerHTML="the number is negative"
+}
+}
+</script>
+</center>
+</body>
+</html>
